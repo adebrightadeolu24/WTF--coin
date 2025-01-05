@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap.min (1).css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./icon-font.css">
     <link rel="stylesheet" href="./icons/all.min.css">
 </head>
 
@@ -20,46 +19,56 @@
         <img src="./IMG-20250102-WA0052.jpg" alt="coin" class="buttons" onclick="addMoney()">
 
         <input type="text" class="money clicked" id="clicked" disabled>
-        </div>
-        <div class="container">
-            <div class=" container-dashboard">
-                <div class="card-box">
-                    <h2 class="card-main-text">BEGINNER SHARE</h2>
-                    <h5 class="card-aux-text">this feature allows you to increase your profit per second thereby allowing you to earn without tapping</h5><i
-                        class="icon icon-basic-todo"></i>
-                    <div class="btn" onclick="beginnerShare()"><h4 id="beginnerShare" class="btn-text"></h4>
-                    </div>
-                </div>
-                <div class="card-box">
-                    <h2 class="card-main-text">FREE CLICK REFILL</h2>
-                    <h5 class="card-aux-text">this feature allows you to refill your clickable points for free</h5>
-                    <i class="icon fa-regular fa-gift"></i>
-                    <div  onclick="freeClickRefill()" class="btn"><h4 class="btn-text freeClickRefill" ></h4>
-                    </div>
-                </div>
-                <div class="card-box">
-                    <h2 class="card-main-text"> INTERMEDIATE SHARE</h2>
-                    <h5 class="card-aux-text">this feature allows you to increase your  profit per second thereby allowing you to earn without tapping</h5><i
-                        class="icon icon-basic-todo-txt"></i>
-                    <div class="btn" onclick="intermediateShare()"><h4 id="intermediateShare" class="btn-text">activate</h4>
-                    </div>
-                </div>
-                <div class="card-box">
-                    <h2 class="card-main-text"> MAX CLICK UPGRADE</h2>
-                    <h5 class="card-aux-text">this feature allows you to increase the amount of times you can click to earn and puts you ahead </h5><i
-                        class="icon icon-basic-settings"></i>
-                    <div class="btn" onclick="maxClickUpgrade()"><h4 id="maxClickUpgrade" class="btn-text">activate</h4>
-                    </div>
-                </div>
-                
-                <div class="card-box">
-                    <div class="btn"></div>
-                </div>
-                <div class="card-box">
-                    <div class="btn"></div>
+    </div>
+    <div class="container">
+        <div class=" container-dashboard">
+            <div class="card-box">
+                <h2 class="card-main-text">BEGINNER SHARE</h2>
+                <h5 class="card-aux-text">this feature allows you to increase your profit per second thereby allowing
+                    you to earn without tapping</h5><i class="icon fa-regular fa-shop"></i>
+                <div class="btn" onclick="beginnerShare()">
+                    <h4 id="beginnerShare" class="btn-text"></h4>
                 </div>
             </div>
-          </div>
+            <div class="card-box">
+                <h2 class="card-main-text">FREE CLICK REFILL</h2>
+                <h5 class="card-aux-text">this feature allows you to refill your clickable points for free</h5>
+                <i class="icon fa-regular fa-gift"></i>
+                <div onclick="freeClickRefill()" class="btn">
+                    <h4 class="btn-text freeClickRefill"></h4>
+                </div>
+            </div>
+            <div class="card-box">
+                <h2 class="card-main-text"> INTERMEDIATE SHARE</h2>
+                <h5 class="card-aux-text">this feature allows you to increase your profit per second thereby allowing
+                    you to earn without tapping</h5><i class="icon fa-regular fa-building"></i>
+                <div class="btn" onclick="intermediateShare()">
+                    <h4 id="intermediateShare" class="btn-text">activate</h4>
+                </div>
+            </div>
+            <div class="card-box">
+                <h2 class="card-main-text"> MAX CLICK UPGRADE</h2>
+                <h5 class="card-aux-text">this feature allows you to increase the amount of times you can click to earn
+                    and puts you ahead </h5><i class="icon fa-regular fa-gears"></i>
+                <div class="btn" onclick="maxClickUpgrade()">
+                    <h4 id="maxClickUpgrade" class="btn-text">activate</h4>
+                </div>
+            </div>
+            <div class="card-box">
+                <h2 class="card-main-text">ADVANCED SHARE</h2>
+                <h5 class="card-aux-text">this feature allows you to increase the amount of times you can click to earn
+                    and puts you ahead</h5><i class="icon fa-regular fa-city"></i>
+            <div class="btn" onclick="advancedShare()">
+                    <h4 id="advancedShare" class="btn-text">activate</h4>
+                </div>
+            </div>
+
+           
+            <div class="card-box">
+                <div class="btn"></div>
+            </div>
+        </div>
+    </div>
 
 </body>
 <script src="./jquery-3.7.1.min.js"></script>
