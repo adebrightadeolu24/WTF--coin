@@ -11,7 +11,7 @@ html {
   position: relative;
   left: 50%;
   transform: translate(-50%);
-  background-color: aliceblue;
+  background: linear-gradient(80deg, #b87333, #12110e, #b87333);
   width: 25rem;
   text-align: center;
   font-size: 4rem;
@@ -21,6 +21,23 @@ html {
   letter-spacing: 0.5rem;
   border-radius: 10px;
   padding: 0.5rem;
+  color: white;
+}
+.container .user {
+  background: linear-gradient(80deg, #b87333, #12110e, #b87333);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  font-size: 2rem;
+  color: azure;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  border-radius: 30px;
+  letter-spacing: 0.19rem;
 }
 .container .buttons {
   position: absolute;
@@ -56,7 +73,7 @@ html {
   transform: translateX(-50%);
   gap: 0;
   border-radius: 10px;
-  border: solid white;
+  border: solid #b87333;
   top: 15%;
 }
 .container .money-container #money {

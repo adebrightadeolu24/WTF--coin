@@ -8,6 +8,7 @@ var refillTimer = 3600;
 var beginnerSharePrice = 20;
 var intermediateSharePrice = 4000;
 var freeClickRefillText = "";
+var advancedSharePrice = 10000;
 function addMoney() {
     if (clicked > 0) {
         money++
@@ -33,6 +34,7 @@ function appendToDisplay() {
     $("#intermediateShare").text(`${intermediateSharePrice} wtf`);
     $(".freeClickRefill").text(freeClickRefillText);
     $("#maxClickUpgrade").text(`${maxClickUpgradePrice} wtf`);
+    $("#advancedShare").text(`${advancedSharePrice} wtf`);
   
 }
  setInterval(function () {
@@ -91,6 +93,18 @@ function intermediateShare() {
     }
     else{
         alert(`you need ${intermediateSharePrice-money} WTF coins to increase`)
+    }
+    
+}
+
+function advancedShare() {
+    if (money>advancedSharePrice) {
+        money = money-advancedSharePrice;
+        profitPerSecond +=80
+        advancedSharePrice = advancedSharePrice*2
+    }
+    else{
+        alert(`you need ${advancedSharePrice-money} WTF coins to increase`)
     }
     
 }
